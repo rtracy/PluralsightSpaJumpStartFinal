@@ -12,7 +12,7 @@
         }
 
         function logError(message, data, source, showToast) {
-            logIt(message, data, source, showToast, 'error');
+            logIt("Error: " + message, data, source, showToast, 'error');
         }
 
         function logIt(message, data, source, showToast, toastType) {
